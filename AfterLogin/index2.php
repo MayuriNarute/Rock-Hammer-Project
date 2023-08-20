@@ -10,21 +10,19 @@
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicons.jpg">
 
     <!-- CSS here -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="assets/css/slicknav.css">
-    <link rel="stylesheet" href="assets/css/flaticon.css">
-    <link rel="stylesheet" href="assets/css/gijgo.css">
-
-
-    <link rel="stylesheet" href="assets/css/animate.min.css">
-    <link rel="stylesheet" href="assets/css/animated-headline.css">
-    <link rel="stylesheet" href="assets/css/magnific-popup.css">
-    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
-    <link rel="stylesheet" href="assets/css/themify-icons.css">
-    <link rel="stylesheet" href="assets/css/slick.css">
-    <link rel="stylesheet" href="assets/css/nice-select.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../assets/css/slicknav.css">
+    <link rel="stylesheet" href="../assets/css/flaticon.css">
+    <link rel="stylesheet" href="../assets/css/gijgo.css">
+    <link rel="stylesheet" href="../assets/css/animate.min.css">
+    <link rel="stylesheet" href="../assets/css/animated-headline.css">
+    <link rel="stylesheet" href="../assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="../assets/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="../assets/css/themify-icons.css">
+    <link rel="stylesheet" href="../assets/css/slick.css">
+    <link rel="stylesheet" href="../assets/css/nice-select.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body class="black-bg">
     <!-- ? Preloader Start -->
@@ -46,7 +44,7 @@
                 <div class="container-fluid">
                     <div class="menu-wrapper d-flex align-items-center justify-content-between">
                     <div class="logo">
-                            <a href="#"><img src="assets/img/logo/indexlogo.png" style="width:150px; height:150px;"/></a>
+                            <a href="#"><img src="../assets/img/logo/indexlogo.png" style="width:150px; height:150px;"/></a>
                         </div>
                         <!-- Main-menu -->
                         <div class="main-menu f-right d-none d-lg-block">
@@ -68,7 +66,7 @@
                                         <?php $_SESSION['dataset']=$user; ?>
                                             <li><a href="user_profile.php" ><?php
                                                  echo "<i>Welcome, ". $user['1']."</i>"?> </a></li>
-                                            <li><a href="logout.php">Log Out</a></li>
+                                            <li><a href="../logout.php">Log Out</a></li>
                                         </ul>
                                     </li>
                                 </ul>
@@ -100,7 +98,7 @@
                             <div class="hero__caption">
                                 <span data-animation="fadeInLeft" data-delay="0.1s">Welcome to Rock Hammer</span>
                                 <h1 data-animation="fadeInLeft" data-delay="0.4s">FITNESS CLUB</h1>
-                                <a href="courses.html" class="border-btn hero-btn" data-animation="fadeInLeft" data-delay="0.8s">Our Courses</a>
+                                <a href="../courses.html" class="border-btn hero-btn" data-animation="fadeInLeft" data-delay="0.8s">Our Courses</a>
                             </div>
                         </div>
                     </div>
@@ -116,14 +114,14 @@
                 <div class="col-xl-6 col-lg-6">
                     <div class="single-topic text-center mb-30">
                         <div class="topic-img">
-                            <img src="assets/img/gallery/cat1.png" alt="">
+                            <img src="../assets/img/gallery/cat1.png" alt="">
                             <div class="topic-content-box">
                                 <div class="topic-content">
                                     <h3>Personal training</h3>
                                     <p>"Unlock Your Potential with Personalized Training! <br>Our expert trainers will tailor a fitness plan just for you, 
                                         helping you reach your goals faster and safer.<br>
                                     </p>
-                                    <a href="courses.html" class="border-btn">View Courses</a>
+                                    <a href="../courses.html" class="border-btn">View Courses</a>
                                 </div>
                             </div>
                         </div>
@@ -132,12 +130,12 @@
                 <div class="col-xl-6 col-lg-6">
                     <div class="single-topic text-center mb-30">
                         <div class="topic-img">
-                            <img src="assets/img/gallery/cat2.png" alt="">
+                            <img src="../assets/img/gallery/cat2.png" alt="">
                             <div class="topic-content-box">
                                 <div class="topic-content">
                                     <h3>Group training</h3>
                                     <p> Experience a supportive community while our expert trainers guide you <br>through exhilarating workouts designed to ignite your passion for fitness. <br>Together, we thrive, and together, we achieve greatness.</p>
-                                    <a href="courses.html" class="btn">View Courses</a>
+                                    <a href="../courses.html" class="btn">View Courses</a>
                                 </div>
                             </div>
                         </div>
@@ -161,10 +159,10 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="single-cat text-center mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s" >
                         <div class="cat-icon">
-                            <img src="assets/img/gallery/team1.png" alt="">
+                            <img src="../assets/img/gallery/team1.png" alt="">
                         </div>
                         <div class="cat-cap">
-                            <h5><a href="services.html">Body Building</a></h5>
+                            <h5><a href="courses2.php">Body Building</a></h5>
                             <p>Our expert trainers will guide you through intensive workouts. Join Our Bodybuilding Course Today! </p>
                         </div>
                     </div>
@@ -172,10 +170,10 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="single-cat text-center mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
                         <div class="cat-icon">
-                            <img src="assets/img/gallery/team2.png" alt="">
+                            <img src="../assets/img/gallery/team2.png" alt="">
                         </div>
                         <div class="cat-cap">
-                            <h5><a href="services.html">Muscle Gain</a></h5>
+                            <h5><a href="courses2.php">Muscle Gain</a></h5>
                             <p>Join our cutting-edge muscle gain course and sculpt the physique you've always dreamed of.</p>
                         </div>
                     </div>
@@ -183,10 +181,10 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="single-cat text-center mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
                         <div class="cat-icon">
-                            <img src="assets/img/gallery/team3.png" alt="">
+                            <img src="../assets/img/gallery/team3.png" alt="">
                         </div>
                         <div class="cat-cap">
-                            <h5><a href="services.html">Weight Loss</a></h5>
+                            <h5><a href="courses2.php">Weight Loss</a></h5>
                             <p>Join Our Weight Loss Course Today! Unleash the Best Version of Yourself with Expert Guidance. </p>
                         </div>
                     </div>
@@ -201,7 +199,7 @@
             <div class="row">
                 <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6">
                     <div class="box snake mb-30">
-                        <div class="gallery-img big-img" style="background-image: url(assets/img/gallery/gallery1.png);"></div>
+                        <div class="gallery-img big-img" style="background-image: url(../assets/img/gallery/gallery1.png);"></div>
                         <div class="overlay">
                             <div class="overlay-content">
                                 <h3>Functional Training
@@ -213,7 +211,7 @@
                 </div>
                 <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6">
                     <div class="box snake mb-30">
-                        <div class="gallery-img big-img" style="background-image: url(assets/img/gallery/gallery2.png);"></div>
+                        <div class="gallery-img big-img" style="background-image: url(../assets/img/gallery/gallery2.png);"></div>
                         <div class="overlay">
                             <div class="overlay-content">
                                 <h3>Weightlifting
@@ -225,7 +223,7 @@
                 </div>
                 <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6">
                     <div class="box snake mb-30">
-                        <div class="gallery-img big-img" style="background-image: url(assets/img/gallery/gallery3.png);"></div>
+                        <div class="gallery-img big-img" style="background-image: url(../assets/img/gallery/gallery3.png);"></div>
                         <div class="overlay">
                             <div class="overlay-content">
                                 <h3>Bulking Up
@@ -237,7 +235,7 @@
                 </div>
                 <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6">
                     <div class="box snake mb-30">
-                        <div class="gallery-img big-img" style="background-image: url(assets/img/gallery/gallery4.png);"></div>
+                        <div class="gallery-img big-img" style="background-image: url(../assets/img/gallery/gallery4.png);"></div>
                         <div class="overlay">
                             <div class="overlay-content">
                                 <h3>Muscle gaining </h3>
@@ -248,7 +246,7 @@
                 </div>
                 <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6">
                     <div class="box snake mb-30">
-                        <div class="gallery-img big-img" style="background-image: url(assets/img/gallery/gallery5.png);"></div>
+                        <div class="gallery-img big-img" style="background-image: url(../assets/img/gallery/gallery5.png);"></div>
                         <div class="overlay">
                             <div class="overlay-content">
                                 <h3>Muscle Recovery
@@ -260,12 +258,12 @@
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
                     <div class="box snake mb-30">
-                        <div class="gallery-img big-img" style="background-image: url(assets/img/gallery/gallery6.png);"></div>
+                        <div class="gallery-img big-img" style="background-image: url(../assets/img/gallery/gallery6.png);"></div>
                         <div class="overlay">
                             <div class="overlay-content">
                                 <h3>Bodybuilding
                                 </h3>
-                                <a href="gallery.html"><i class="ti-plus"></i></a>
+                                <a href="gallery2.php"><i class="ti-plus"></i></a>
                             </div>
                         </div>
                     </div>
@@ -288,14 +286,14 @@
                     <div class="properties mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
                         <div class="properties__card">
                             <div class="about-icon">
-                                <img src="assets/img/icon/price.svg" alt="">
+                                <img src="../assets/img/icon/price.svg" alt="">
                             </div>
                             <div class="properties__caption">
                                 <span class="month">6 month</span>
                                 <p class="mb-25">$30/m  <span>(Single class)</span></p>
                                 <div class="single-features">
                                     <div class="features-icon">
-                                        <img src="assets/img/icon/check.svg" alt="">
+                                        <img src="../assets/img/icon/check.svg" alt="">
                                     </div>
                                     <div class="features-caption">
                                         <p>Free riding </p>
@@ -303,7 +301,7 @@
                                 </div>
                                 <div class="single-features">
                                     <div class="features-icon">
-                                        <img src="assets/img/icon/check.svg" alt="">
+                                        <img src="../assets/img/icon/check.svg" alt="">
                                     </div>
                                     <div class="features-caption">
                                         <p>Unlimited equipments</p>
@@ -311,7 +309,7 @@
                                 </div>
                                 <div class="single-features">
                                     <div class="features-icon">
-                                        <img src="assets/img/icon/check.svg" alt="">
+                                        <img src="../assets/img/icon/check.svg" alt="">
                                     </div>
                                     <div class="features-caption">
                                         <p>Personal trainer</p>
@@ -319,7 +317,7 @@
                                 </div>
                                 <div class="single-features">
                                     <div class="features-icon">
-                                        <img src="assets/img/icon/check.svg" alt="">
+                                        <img src="../assets/img/icon/check.svg" alt="">
                                     </div>
                                     <div class="features-caption">
                                         <p>Weight losing classes</p>
@@ -327,7 +325,7 @@
                                 </div>
                                 <div class="single-features mb-20">
                                     <div class="features-icon">
-                                        <img src="assets/img/icon/check.svg" alt="">
+                                        <img src="../assets/img/icon/check.svg" alt="">
                                     </div>
                                     <div class="features-caption">
                                         <p>Month to mouth</p>
@@ -342,14 +340,14 @@
                     <div class="properties mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
                         <div class="properties__card">
                             <div class="about-icon">
-                                <img src="assets/img/icon/price.svg" alt="">
+                                <img src="../assets/img/icon/price.svg" alt="">
                             </div>
                             <div class="properties__caption">
                                 <span class="month">6 month</span>
                                 <p class="mb-25">$30/m  <span>(Single class)</span></p>
                                 <div class="single-features">
                                     <div class="features-icon">
-                                        <img src="assets/img/icon/check.svg" alt="">
+                                        <img src="../assets/img/icon/check.svg" alt="">
                                     </div>
                                     <div class="features-caption">
                                         <p>Free riding </p>
@@ -357,7 +355,7 @@
                                 </div>
                                 <div class="single-features">
                                     <div class="features-icon">
-                                        <img src="assets/img/icon/check.svg" alt="">
+                                        <img src="../assets/img/icon/check.svg" alt="">
                                     </div>
                                     <div class="features-caption">
                                         <p>Unlimited equipments</p>
@@ -365,7 +363,7 @@
                                 </div>
                                 <div class="single-features">
                                     <div class="features-icon">
-                                        <img src="assets/img/icon/check.svg" alt="">
+                                        <img src="../assets/img/icon/check.svg" alt="">
                                     </div>
                                     <div class="features-caption">
                                         <p>Personal trainer</p>
@@ -373,7 +371,7 @@
                                 </div>
                                 <div class="single-features">
                                     <div class="features-icon">
-                                        <img src="assets/img/icon/check.svg" alt="">
+                                        <img src="../assets/img/icon/check.svg" alt="">
                                     </div>
                                     <div class="features-caption">
                                         <p>Weight losing classes</p>
@@ -381,7 +379,7 @@
                                 </div>
                                 <div class="single-features mb-20">
                                     <div class="features-icon">
-                                        <img src="assets/img/icon/check.svg" alt="">
+                                        <img src="../assets/img/icon/check.svg" alt="">
                                     </div>
                                     <div class="features-caption">
                                         <p>Month to mouth</p>
@@ -396,14 +394,14 @@
                     <div class="properties mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
                         <div class="properties__card">
                             <div class="about-icon">
-                                <img src="assets/img/icon/price.svg" alt="">
+                                <img src="../assets/img/icon/price.svg" alt="">
                             </div>
                             <div class="properties__caption">
                                 <span class="month">6 month</span>
                                 <p class="mb-25">$30/m  <span>(Single class)</span></p>
                                 <div class="single-features">
                                     <div class="features-icon">
-                                        <img src="assets/img/icon/check.svg" alt="">
+                                        <img src="../assets/img/icon/check.svg" alt="">
                                     </div>
                                     <div class="features-caption">
                                         <p>Free riding </p>
@@ -411,7 +409,7 @@
                                 </div>
                                 <div class="single-features">
                                     <div class="features-icon">
-                                        <img src="assets/img/icon/check.svg" alt="">
+                                        <img src="../assets/img/icon/check.svg" alt="">
                                     </div>
                                     <div class="features-caption">
                                         <p>Unlimited equipments</p>
@@ -419,7 +417,7 @@
                                 </div>
                                 <div class="single-features">
                                     <div class="features-icon">
-                                        <img src="assets/img/icon/check.svg" alt="">
+                                        <img src="../assets/img/icon/check.svg" alt="">
                                     </div>
                                     <div class="features-caption">
                                         <p>Personal trainer</p>
@@ -427,7 +425,7 @@
                                 </div>
                                 <div class="single-features">
                                     <div class="features-icon">
-                                        <img src="assets/img/icon/check.svg" alt="">
+                                        <img src="../assets/img/icon/check.svg" alt="">
                                     </div>
                                     <div class="features-caption">
                                         <p>Weight losing classes</p>
@@ -435,7 +433,7 @@
                                 </div>
                                 <div class="single-features mb-20">
                                     <div class="features-icon">
-                                        <img src="assets/img/icon/check.svg" alt="">
+                                        <img src="../assets/img/icon/check.svg" alt="">
                                     </div>
                                     <div class="features-caption">
                                         <p>Month to mouth</p>
@@ -456,7 +454,7 @@
             <div class="right-content2">
                 <!-- img -->
                 <div class="right-img wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">
-                    <img src="assets/img/gallery/about.png" alt="">
+                    <img src="../assets/img/gallery/about.png" alt="">
                 </div>
             </div>
             <div class="left-content2">
@@ -589,47 +587,45 @@
     <a title="Go to Top" href="#"> <i class="fas fa-level-up-alt"></i></a>
 </div>
 
-<!-- JS here -->
 
-<script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
+<script src="../assets/js/vendor/modernizr-3.5.0.min.js"></script>
 <!-- Jquery, Popper, Bootstrap -->
-<script src="./assets/js/vendor/jquery-1.12.4.min.js"></script>
-<script src="./assets/js/popper.min.js"></script>
-<script src="./assets/js/bootstrap.min.js"></script>
+<script src="../assets/js/vendor/jquery-1.12.4.min.js"></script>
+<script src="../assets/js/popper.min.js"></script>
+<script src="../assets/js/bootstrap.min.js"></script>
 <!-- Jquery Mobile Menu -->
-<script src="./assets/js/jquery.slicknav.min.js"></script>
+<script src="../assets/js/jquery.slicknav.min.js"></script>
 
 <!-- Jquery Slick , Owl-Carousel Plugins -->
-<script src="./assets/js/owl.carousel.min.js"></script>
-<script src="./assets/js/slick.min.js"></script>
+<script src="../assets/js/owl.carousel.min.js"></script>
+<script src="../assets/js/slick.min.js"></script>
 <!-- One Page, Animated-HeadLin -->
-<script src="./assets/js/wow.min.js"></script>
-<script src="./assets/js/animated.headline.js"></script>
-<script src="./assets/js/jquery.magnific-popup.js"></script>
+<script src="../assets/js/wow.min.js"></script>
+<script src="../assets/js/animated.headline.js"></script>
+<script src="../assets/js/jquery.magnific-popup.js"></script>
 
 <!-- Date Picker -->
-<script src="./assets/js/gijgo.min.js"></script>
+<script src="../assets/js/gijgo.min.js"></script>
 <!-- Nice-select, sticky -->
-<script src="./assets/js/jquery.nice-select.min.js"></script>
-<script src="./assets/js/jquery.sticky.js"></script>
+<script src="../assets/js/jquery.nice-select.min.js"></script>
+<script src="../assets/js/jquery.sticky.js"></script>
 
 <!-- counter , waypoint,Hover Direction -->
-<script src="./assets/js/jquery.counterup.min.js"></script>
-<script src="./assets/js/waypoints.min.js"></script>
-<script src="./assets/js/jquery.countdown.min.js"></script>
-<script src="./assets/js/hover-direction-snake.min.js"></script>
+<script src="../assets/js/jquery.counterup.min.js"></script>
+<script src="../assets/js/waypoints.min.js"></script>
+<script src="../assets/js/jquery.countdown.min.js"></script>
+<script src="../assets/js/hover-direction-snake.min.js"></script>
 
 <!-- contact js -->
-<script src="./assets/js/contact.js"></script>
-<script src="./assets/js/jquery.form.js"></script>
-<script src="./assets/js/jquery.validate.min.js"></script>
-<script src="./assets/js/mail-script.js"></script>
-<script src="./assets/js/jquery.ajaxchimp.min.js"></script>
-<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+<script src="../assets/js/contact.js"></script>
+<script src="../assets/js/jquery.form.js"></script>
+<script src="../assets/js/jquery.validate.min.js"></script>
+<script src="../assets/js/mail-script.js"></script>
+<script src="../assets/js/jquery.ajaxchimp.min.js"></script>
 
 <!-- Jquery Plugins, main Jquery -->	
-<script src="./assets/js/plugins.js"></script>
-<script src="./assets/js/main.js"></script>
+<script src="../assets/js/plugins.js"></script>
+<script src="../assets/js/main.js"></script>
 
 </body>
 </html>

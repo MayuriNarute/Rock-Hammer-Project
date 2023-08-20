@@ -10,19 +10,19 @@
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicons.jpg">
 
     <!-- CSS here -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="assets/css/slicknav.css">
-    <link rel="stylesheet" href="assets/css/flaticon.css">
-    <link rel="stylesheet" href="assets/css/gijgo.css">
-    <link rel="stylesheet" href="assets/css/animate.min.css">
-    <link rel="stylesheet" href="assets/css/animated-headline.css">
-    <link rel="stylesheet" href="assets/css/magnific-popup.css">
-    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
-    <link rel="stylesheet" href="assets/css/themify-icons.css">
-    <link rel="stylesheet" href="assets/css/slick.css">
-    <link rel="stylesheet" href="assets/css/nice-select.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../assets/css/slicknav.css">
+    <link rel="stylesheet" href="../assets/css/flaticon.css">
+    <link rel="stylesheet" href="../assets/css/gijgo.css">
+    <link rel="stylesheet" href="../assets/css/animate.min.css">
+    <link rel="stylesheet" href="../assets/css/animated-headline.css">
+    <link rel="stylesheet" href="../assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="../assets/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="../assets/css/themify-icons.css">
+    <link rel="stylesheet" href="../assets/css/slick.css">
+    <link rel="stylesheet" href="../assets/css/nice-select.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body class="black-bg">
     <!-- ? Preloader Start -->
@@ -44,7 +44,7 @@
                 <div class="container-fluid">
                     <div class="menu-wrapper d-flex align-items-center justify-content-between">
                     <div class="logo">
-                            <a href="#"><img src="assets/img/logo/indexlogo.png" style="width:150px; height:150px;"/></a>
+                            <a href="#"><img src="../assets/img/logo/indexlogo.png" style="width:150px; height:150px;"/></a>
                         </div>
                         <!-- Main-menu -->
                         <div class="main-menu f-right d-none d-lg-block">
@@ -66,7 +66,7 @@
                                         <?php $_SESSION['dataset']=$user; ?>
                                             <li><a href="user_profile.php" ><?php
                                                  echo "<i>Welcome, ". $user['1']."</i>"?> </a></li>
-                                            <li><a href="logout.php">Log Out</a></li>
+                                            <li><a href="../logout.php">Log Out</a></li>
                                         </ul>
                                     </li>
                                 </ul>
@@ -112,17 +112,17 @@
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
-            <form class="form-contact contact_form" id="contactForm">
+            <form class="form-contact contact_form" id="contactForm" method="post" action="../checkout/pay.php">
               <div class="modal-body">
               
                 <div class="form-group">
                   <label for="name"><i style="font-size:15px;"class="fas fa-user"></i>&nbsp;Full Name</label>
-                  <input type="text" class="form-control" id="name" aria-describedby="name" placeholder="Enter your full name">
+                  <input type="text" class="form-control" id="name" name="name" aria-describedby="name" placeholder="Enter your full name">
                 </div>
                 
                 <div class="form-group">
                   <label for="email1"><i style="font-size:15px;"class="fas fa-envelope"></i>&nbsp;Email address</label>
-                  <input type="email" class="form-control" id="email1" aria-describedby="emailHelp" placeholder="Enter your email">
+                  <input type="email" class="form-control" id="email1" name="email1" aria-describedby="emailHelp" placeholder="Enter your email">
                 </div>
                
               </div>
@@ -142,17 +142,17 @@
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
-            <form class="form-contact contact_form" id="contactForm">
+            <form class="form-contact contact_form" id="contactForm" method="post" action="../checkout/pay.php">
               <div class="modal-body">
               
               <div class="form-group">
                   <label for="name"><i style="font-size:15px;"class="fas fa-user"></i>&nbsp;Full Name</label>
-                  <input type="text" class="form-control" id="name" aria-describedby="name" placeholder="Enter your full name">
+                  <input type="text" class="form-control" id="name" name="name" aria-describedby="name" placeholder="Enter your full name">
                 </div>
                 
                 <div class="form-group">
                   <label for="email1"><i style="font-size:15px;"class="fas fa-envelope"></i>&nbsp;Email address</label>
-                  <input type="email" class="form-control" id="email1" aria-describedby="emailHelp" placeholder="Enter your email">
+                  <input type="email" class="form-control" id="email1" name="email1" aria-describedby="emailHelp" placeholder="Enter your email">
                 </div>
                
               </div>
@@ -172,7 +172,7 @@
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
-            <form class="form-contact contact_form" id="contactForm" method="post" action="pay.php">
+            <form class="form-contact contact_form" id="contactForm" method="post" action="../checkout/pay.php">
               <div class="modal-body">
               
               <div class="form-group">
@@ -207,14 +207,14 @@
                     <div class="properties mb-30">
                         <div class="properties__card">
                             <div class="about-icon">
-                                <img src="assets/img/icon/price.svg" alt="">
+                                <img src="../assets/img/icon/price.svg" alt="">
                             </div>
                             <div class="properties__caption">
                                 <span class="month">6 month</span>
                                 <p class="mb-25">$30/m  <span>(Single class)</span></p>
                                 <div class="single-features">
                                     <div class="features-icon">
-                                        <img src="assets/img/icon/check.svg" alt="">
+                                        <img src="../assets/img/icon/check.svg" alt="">
                                     </div>
                                     <div class="features-caption">
                                         <p>Free riding </p>
@@ -222,7 +222,7 @@
                                 </div>
                                 <div class="single-features">
                                     <div class="features-icon">
-                                        <img src="assets/img/icon/check.svg" alt="">
+                                        <img src="../assets/img/icon/check.svg" alt="">
                                     </div>
                                     <div class="features-caption">
                                         <p>Unlimited equipments</p>
@@ -230,7 +230,7 @@
                                 </div>
                                 <div class="single-features">
                                     <div class="features-icon">
-                                        <img src="assets/img/icon/check.svg" alt="">
+                                        <img src="../assets/img/icon/check.svg" alt="">
                                     </div>
                                     <div class="features-caption">
                                         <p>Personal trainer</p>
@@ -238,7 +238,7 @@
                                 </div>
                                 <div class="single-features">
                                     <div class="features-icon">
-                                        <img src="assets/img/icon/check.svg" alt="">
+                                        <img src="../assets/img/icon/check.svg" alt="">
                                     </div>
                                     <div class="features-caption">
                                         <p>Weight losing classes</p>
@@ -246,7 +246,7 @@
                                 </div>
                                 <div class="single-features mb-20">
                                     <div class="features-icon">
-                                        <img src="assets/img/icon/check.svg" alt="">
+                                        <img src="../assets/img/icon/check.svg" alt="">
                                     </div>
                                     <div class="features-caption">
                                         <p>Month to mouth</p>
@@ -261,14 +261,14 @@
                     <div class="properties mb-30">
                         <div class="properties__card">
                             <div class="about-icon">
-                                <img src="assets/img/icon/price.svg" alt="">
+                                <img src="../assets/img/icon/price.svg" alt="">
                             </div>
                             <div class="properties__caption">
                                 <span class="month">6 month</span>
                                 <p class="mb-25">$30/m  <span>(Single class)</span></p>
                                 <div class="single-features">
                                     <div class="features-icon">
-                                        <img src="assets/img/icon/check.svg" alt="">
+                                        <img src="../assets/img/icon/check.svg" alt="">
                                     </div>
                                     <div class="features-caption">
                                         <p>Free riding </p>
@@ -276,7 +276,7 @@
                                 </div>
                                 <div class="single-features">
                                     <div class="features-icon">
-                                        <img src="assets/img/icon/check.svg" alt="">
+                                        <img src="../assets/img/icon/check.svg" alt="">
                                     </div>
                                     <div class="features-caption">
                                         <p>Unlimited equipments</p>
@@ -284,7 +284,7 @@
                                 </div>
                                 <div class="single-features">
                                     <div class="features-icon">
-                                        <img src="assets/img/icon/check.svg" alt="">
+                                        <img src="../assets/img/icon/check.svg" alt="">
                                     </div>
                                     <div class="features-caption">
                                         <p>Personal trainer</p>
@@ -292,7 +292,7 @@
                                 </div>
                                 <div class="single-features">
                                     <div class="features-icon">
-                                        <img src="assets/img/icon/check.svg" alt="">
+                                        <img src="../assets/img/icon/check.svg" alt="">
                                     </div>
                                     <div class="features-caption">
                                         <p>Weight losing classes</p>
@@ -300,7 +300,7 @@
                                 </div>
                                 <div class="single-features mb-20">
                                     <div class="features-icon">
-                                        <img src="assets/img/icon/check.svg" alt="">
+                                        <img src="../assets/img/icon/check.svg" alt="">
                                     </div>
                                     <div class="features-caption">
                                         <p>Month to mouth</p>
@@ -315,14 +315,14 @@
                     <div class="properties mb-30">
                         <div class="properties__card">
                             <div class="about-icon">
-                                <img src="assets/img/icon/price.svg" alt="">
+                                <img src="../assets/img/icon/price.svg" alt="">
                             </div>
                             <div class="properties__caption">
                                 <span class="month">6 month</span>
                                 <p class="mb-25">$30/m  <span>(Single class)</span></p>
                                 <div class="single-features">
                                     <div class="features-icon">
-                                        <img src="assets/img/icon/check.svg" alt="">
+                                        <img src="../assets/img/icon/check.svg" alt="">
                                     </div>
                                     <div class="features-caption">
                                         <p>Free riding </p>
@@ -330,7 +330,7 @@
                                 </div>
                                 <div class="single-features">
                                     <div class="features-icon">
-                                        <img src="assets/img/icon/check.svg" alt="">
+                                        <img src="../assets/img/icon/check.svg" alt="">
                                     </div>
                                     <div class="features-caption">
                                         <p>Unlimited equipments</p>
@@ -338,7 +338,7 @@
                                 </div>
                                 <div class="single-features">
                                     <div class="features-icon">
-                                        <img src="assets/img/icon/check.svg" alt="">
+                                        <img src="../assets/img/icon/check.svg" alt="">
                                     </div>
                                     <div class="features-caption">
                                         <p>Personal trainer</p>
@@ -346,7 +346,7 @@
                                 </div>
                                 <div class="single-features">
                                     <div class="features-icon">
-                                        <img src="assets/img/icon/check.svg" alt="">
+                                        <img src="../assets/img/icon/check.svg" alt="">
                                     </div>
                                     <div class="features-caption">
                                         <p>Weight losing classes</p>
@@ -354,7 +354,7 @@
                                 </div>
                                 <div class="single-features mb-20">
                                     <div class="features-icon">
-                                        <img src="assets/img/icon/check.svg" alt="">
+                                        <img src="../assets/img/icon/check.svg" alt="">
                                     </div>
                                     <div class="features-caption">
                                         <p>Month to mouth</p>
@@ -476,44 +476,44 @@
 
 <!-- JS here -->
 
-<script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
+<script src="../assets/js/vendor/modernizr-3.5.0.min.js"></script>
 <!-- Jquery, Popper, Bootstrap -->
-<script src="./assets/js/vendor/jquery-1.12.4.min.js"></script>
-<script src="./assets/js/popper.min.js"></script>
-<script src="./assets/js/bootstrap.min.js"></script>
+<script src="../assets/js/vendor/jquery-1.12.4.min.js"></script>
+<script src="../assets/js/popper.min.js"></script>
+<script src="../assets/js/bootstrap.min.js"></script>
 <!-- Jquery Mobile Menu -->
-<script src="./assets/js/jquery.slicknav.min.js"></script>
+<script src="../assets/js/jquery.slicknav.min.js"></script>
 
 <!-- Jquery Slick , Owl-Carousel Plugins -->
-<script src="./assets/js/owl.carousel.min.js"></script>
-<script src="./assets/js/slick.min.js"></script>
+<script src="../assets/js/owl.carousel.min.js"></script>
+<script src="../assets/js/slick.min.js"></script>
 <!-- One Page, Animated-HeadLin -->
-<script src="./assets/js/wow.min.js"></script>
-<script src="./assets/js/animated.headline.js"></script>
-<script src="./assets/js/jquery.magnific-popup.js"></script>
+<script src="../assets/js/wow.min.js"></script>
+<script src="../assets/js/animated.headline.js"></script>
+<script src="../assets/js/jquery.magnific-popup.js"></script>
 
 <!-- Date Picker -->
-<script src="./assets/js/gijgo.min.js"></script>
+<script src="../assets/js/gijgo.min.js"></script>
 <!-- Nice-select, sticky -->
-<script src="./assets/js/jquery.nice-select.min.js"></script>
-<script src="./assets/js/jquery.sticky.js"></script>
+<script src="../assets/js/jquery.nice-select.min.js"></script>
+<script src="../assets/js/jquery.sticky.js"></script>
 
 <!-- counter , waypoint,Hover Direction -->
-<script src="./assets/js/jquery.counterup.min.js"></script>
-<script src="./assets/js/waypoints.min.js"></script>
-<script src="./assets/js/jquery.countdown.min.js"></script>
-<script src="./assets/js/hover-direction-snake.min.js"></script>
+<script src="../assets/js/jquery.counterup.min.js"></script>
+<script src="../assets/js/waypoints.min.js"></script>
+<script src="../assets/js/jquery.countdown.min.js"></script>
+<script src="../assets/js/hover-direction-snake.min.js"></script>
 
 <!-- contact js -->
-<script src="./assets/js/contact.js"></script>
-<script src="./assets/js/jquery.form.js"></script>
-<script src="./assets/js/jquery.validate.min.js"></script>
-<script src="./assets/js/mail-script.js"></script>
-<script src="./assets/js/jquery.ajaxchimp.min.js"></script>
+<script src="../assets/js/contact.js"></script>
+<script src="../assets/js/jquery.form.js"></script>
+<script src="../assets/js/jquery.validate.min.js"></script>
+<script src="../assets/js/mail-script.js"></script>
+<script src="../assets/js/jquery.ajaxchimp.min.js"></script>
 
 <!-- Jquery Plugins, main Jquery -->	
-<script src="./assets/js/plugins.js"></script>
-<script src="./assets/js/main.js"></script>
+<script src="../assets/js/plugins.js"></script>
+<script src="../assets/js/main.js"></script>
 
 </body>
 </html>

@@ -38,8 +38,13 @@ if (empty($_POST['razorpay_payment_id']) === false)
 
 if ($success === true)
 {
-    $html = "<p>Your payment was successful</p>
-             <p>Payment ID: {$_POST['razorpay_payment_id']}</p>";
+    ?><script>
+        alert('Thank you for joining our plan!');
+    </script>
+
+    <?php
+        // $html = "<p>Your payment was successful</p>
+    //          <p>Payment ID: {$_POST['razorpay_payment_id']}</p>";
 }
 else
 {

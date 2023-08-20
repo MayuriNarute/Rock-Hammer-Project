@@ -9,17 +9,17 @@
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicons.jpg">
 
     <!-- CSS here -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="assets/css/slicknav.css">
-    <link rel="stylesheet" href="assets/css/animate.min.css">
-    <link rel="stylesheet" href="assets/css/magnific-popup.css">
-    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
-    <link rel="stylesheet" href="assets/css/themify-icons.css">
-    <link rel="stylesheet" href="assets/css/themify-icons.css">
-    <link rel="stylesheet" href="assets/css/slick.css">
-    <link rel="stylesheet" href="assets/css/nice-select.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../assets/css/slicknav.css">
+    <link rel="stylesheet" href="../assets/css/animate.min.css">
+    <link rel="stylesheet" href="../assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="../assets/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="../assets/css/themify-icons.css">
+    <link rel="stylesheet" href="../assets/css/themify-icons.css">
+    <link rel="stylesheet" href="../assets/css/slick.css">
+    <link rel="stylesheet" href="../assets/css/nice-select.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
 
 </head>
 <script src="script.js" type="text/javascript"></script>
@@ -45,7 +45,7 @@
                 <div class="menu-wrapper d-flex align-items-center justify-content-between">
                     <!-- Logo -->
                     <div class="logo">
-                            <a href="#"><img src="assets/img/logo/indexlogo.png" style="width:150px; height:150px;"/></a>
+                            <a href="#"><img src="../assets/img/logo/indexlogo.png" style="width:150px; height:150px;"/></a>
                         </div>
                     <!-- Main-menu -->
                     <div class="main-menu f-right d-none d-lg-block">
@@ -67,7 +67,7 @@
                                         <?php $_SESSION['dataset']=$user; ?>
                                             <li><a href="user_profile.php" ><?php
                                                  echo "<i>Welcome, ". $user['1']."</i>"?> </a></li>
-                                            <li><a href="logout.php">Log Out</a></li>
+                                            <li><a href="../logout.php">Log Out</a></li>
                                         </ul>
                                 </li>
                             </ul>
@@ -75,7 +75,7 @@
                     </div>          
                     <!-- Header-btn -->
                     <div class="header-btns d-none d-lg-block f-right">
-                    <a href="contact2.php" style="font-size:15px; margin:0; padding:26px;"class="btn">Contact Us</a>
+                    <a href="#" style="font-size:15px; margin:0; padding:26px;"class="btn">Contact Us</a>
                    </div>
                    <!-- Mobile Menu -->
                    <div class="col-12">
@@ -95,7 +95,7 @@
                 <div class="row">
                     <div class="col-xl-12">
                         <div class="hero-cap hero-cap2 pt-70">
-                            <h2>Payment</h2>
+                            <h2>Contact Us</h2>
                         </div>
                     </div>
                 </div>
@@ -103,67 +103,89 @@
         </div>
     </div>
     <!-- Hero End -->
-    <br><br><br>
 
-    <h2 class="contact-title text-center">Click here to process your payment</h2>
-        <?php
-    require('config.php');
-    require('Razorpay/Razorpay.php');
-    use Razorpay\Api\Api;
-    $api = new Api($keyId, $keySecret);
-    $orderData = [
-        'receipt'         => 3456,
-        'amount'          => 200 * 100,
-        'currency'        => 'INR',
-        'payment_capture' => 1
-    ];
-    $razorpayOrder = $api->order->create($orderData);
-    $razorpayOrderId = $razorpayOrder['id'];
-    $_SESSION['razorpay_order_id'] = $razorpayOrderId;
-    $displayAmount = $amount = $orderData['amount'];
-    if ($displayCurrency !== 'INR') {
-        $url = "https://api.fixer.io/latest?symbols=$displayCurrency&base=INR";
-        $exchange = json_decode(file_get_contents($url), true);
+</script>
+    <!--?  Contact Area start  -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="row">
+                <div class="column">
+                    <div class="google-map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3763.5113317283367!2d74.64889857508456!3d19.39030078187999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdc9385fea452b1%3A0x922236ea92c7e7b5!2sRock%20Hammer!5e0!3m2!1sen!2sin!4v1689846389451!5m2!1sen!2sin" 
+                        width="500" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>               
+                    </div>
+                </div>
+            
+                <div class="column">
 
-        $displayAmount = $exchange['rates'][$displayCurrency] * $amount / 100;
-    }
-    $data = [
-        "key"               => $keyId,
-        "amount"            => $amount,
-        "name"              => 'Rock Hammer Gym',
-        "description"       => 'Fitness Club',
-        "image"             => "",
-        "prefill"           => [
-        "name"              => $_POST['name'],
-        "email"             => $_POST['email1'],
-        "contact"           => '7685432211',
-        ],
-        "notes"             => [
-        "address"           => 'Rahuri, Ahmednagar',
-        "merchant_order_id" => "12312321",
-        ],
-        "theme"             => [
-        "color"             => "#F37254"
-        ],
-        "order_id"          => $razorpayOrderId,
-    ];
+                    <h2 class="contact-title">Get in Touch</h2>
+                
+                    <form class="form-contact contact_form"  id="contactForm" method="post"  >
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <input class="form-control valid" name="name" pattern="[A-Za-z '-]+" id="name" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'" placeholder="Enter your name"
+                                    oninvalid="this.setCustomValidity('Please enter your name')" oninput="this.setCustomValidity('')" required>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <input class="form-control valid" name="email" id="email" type="email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" placeholder="Email"
+                                    oninvalid="this.setCustomValidity('Please enter valid email address')" oninput="this.setCustomValidity('')" required>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <textarea class="form-control w-100" name="message" id="message" cols="30" rows="9" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Message'" placeholder=" Enter Message"
+                                    oninvalid="this.setCustomValidity('Please enter some message')" oninput="this.setCustomValidity('')" required></textarea>
+                                </div>
+                            </div>       
+                            
+                        </div>
+                        <div class="form-group mt-3">
+                            <button type="submit" class="button button-contactForm boxed-btn">Send</button>
+                        </div>
+                    </form>
+                </div>              
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
 
-    if ($displayCurrency !== 'INR')
-    {
-        $data['display_currency']  = $displayCurrency;
-        $data['display_amount']    = $displayAmount;
-    }
+    <script>
+              emailjs.init("MEd16tMecYKwz3GBE");
 
-    $json = json_encode($data);
+</script>
+<script>
+      // Initialize Email.js
+  document.getElementById("contactForm").addEventListener("submit", function (event) {
 
+    event.preventDefault(); // Prevent the default form submission
 
-    require("checkout/manual.php");
-    ?>
+    // Get user inputs
+    const name = document.getElementById("name").value;
+    const email = document.getElementById("email").value;
+    const message = document.getElementById("message").value;
 
-
+    // Send email using Email.js
+    emailjs.send("service_n9xlsg4", "template_fqonial", {
+      from_name: name,
+      email_id: email,
+      message: message,
+    })
+    .then(function (response) {
+      console.log("Email sent");
+      alert("The message has been sent successfully.!");
+    })
+    .catch(function (error) {
+      console.error("Email failed to send:", error);
+      alert("Email failed to send. Please try again later.");
+    });
+  });
+    
+</script>
     <!-- Contact Area End -->
     <!-- ? services-area -->
-    <br><br><br>
     <section class="services-area">
         <div class="container">
             <div class="row justify-content-between">
@@ -224,12 +246,12 @@
                                         <div class="main-menu main-menu2 text-center">
                                             <nav>
                                                 <ul>
-                                                    <li><a href="index.html">Home</a></li>
-                                                    <li><a href="about.html">About</a></li>
-                                                    <li><a href="courses.html">Courses</a></li>
-                                                    <li><a href="pricing.html">Pricing</a></li>
-                                                    <li><a href="gallery.html">Gallery</a></li>
-                                                    <li><a href="contact.html">Contact</a></li>
+                                                <li><a href="index2.php">Home</a></li>
+                                    <li><a href="about2.php">About</a></li>
+                                    <li><a href="courses2.php">Courses</a></li>
+                                    <li><a href="pricing2.php">Pricing</a></li>
+                                    <li><a href="gallery2.php">Gallery</a></li>
+                                                    <li><a href="contact2.php">Contact</a></li>
                                                 </ul>
                                             </nav>
                                         </div>   
@@ -270,38 +292,36 @@
 
 <!-- JS here -->
 
-<script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
+<script src="../assets/js/vendor/modernizr-3.5.0.min.js"></script>
 <!-- Jquery, Popper, Bootstrap -->
-<script src="./assets/js/vendor/jquery-1.12.4.min.js"></script>
-<script src="./assets/js/popper.min.js"></script>
-<script src="./assets/js/bootstrap.min.js"></script>
+<script src="../assets/js/vendor/jquery-1.12.4.min.js"></script>
+<script src="../assets/js/popper.min.js"></script>
+<script src="../assets/js/bootstrap.min.js"></script>
 <!-- Jquery Mobile Menu -->
-<script src="./assets/js/jquery.slicknav.min.js"></script>
+<script src="../assets/js/jquery.slicknav.min.js"></script>
 
 <!-- Jquery Slick , Owl-Carousel Plugins -->
-<script src="./assets/js/owl.carousel.min.js"></script>
-<script src="./assets/js/slick.min.js"></script>
+<script src="../assets/js/owl.carousel.min.js"></script>
+<script src="../assets/js/slick.min.js"></script>
 <!-- One Page, Animated-HeadLin -->
-<script src="./assets/js/wow.min.js"></script>
-<script src="./assets/js/animated.headline.js"></script>
+<script src="../assets/js/wow.min.js"></script>
+<script src="../assets/js/animated.headline.js"></script>
 
 <!-- Nice-select, sticky -->
-<script src="./assets/js/jquery.nice-select.min.js"></script>
-<script src="./assets/js/jquery.sticky.js"></script>
-<script src="./assets/js/jquery.magnific-popup.js"></script>
+<script src="../assets/js/jquery.nice-select.min.js"></script>
+<script src="../assets/js/jquery.sticky.js"></script>
+<script src="../assets/js/jquery.magnific-popup.js"></script>
 
 <!-- contact js -->
-<script src="./assets/js/contact.js"></script>
-<script src="./assets/js/jquery.form.js"></script>
-<script src="./assets/js/jquery.validate.min.js"></script>
-<script src="./assets/js/mail-script.js"></script>
-<script src="./assets/js/jquery.ajaxchimp.min.js"></script>
-<script src="./assets/js/main.js"></script>
+<script src="../assets/js/contact.js"></script>
+<script src="../assets/js/jquery.form.js"></script>
+<script src="../assets/js/jquery.validate.min.js"></script>
+<script src="../assets/js/mail-script.js"></script>
+<script src="../assets/js/jquery.ajaxchimp.min.js"></script>
+<script src="../assets/js/main.js"></script>
 
 <!-- Jquery Plugins, main Jquery -->	
-<script src="./assets/js/plugins.js"></script>
+<script src="../assets/js/plugins.js"></script>
 
 </body>
 </html>
-
-

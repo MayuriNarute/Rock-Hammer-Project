@@ -87,7 +87,7 @@
                 <div class="row">
                     <div class="col-xl-12">
                         <div class="hero-cap hero-cap2 pt-70">
-                            <h2>Contact me</h2>
+                            <h2>Contact Us</h2>
                         </div>
                     </div>
                 </div>
@@ -167,8 +167,8 @@
       message: message,
     })
     .then(function (response) {
-      console.log("Email sent:", response);
-      alert("Email sent successfully!");
+      console.log("Email sent");
+      alert("The message has been sent successfully.");
     })
     .catch(function (error) {
       console.error("Email failed to send:", error);
@@ -240,12 +240,12 @@
                                         <div class="main-menu main-menu2 text-center">
                                             <nav>
                                                 <ul>
-                                                    <li><a href="index.html">Home</a></li>
+                                                    <li><a href="index.php">Home</a></li>
                                                     <li><a href="about.html">About</a></li>
                                                     <li><a href="courses.html">Courses</a></li>
-                                                    <li><a href="pricing.html">Pricing</a></li>
+                                                    <li><a href="pricing.php">Pricing</a></li>
                                                     <li><a href="gallery.html">Gallery</a></li>
-                                                    <li><a href="contact.html">Contact</a></li>
+                                                    <li><a href="contact.php">Contact</a></li>
                                                 </ul>
                                             </nav>
                                         </div>   

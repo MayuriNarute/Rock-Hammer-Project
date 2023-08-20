@@ -10,19 +10,19 @@
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicons.jpg">
 
     <!-- CSS here -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="assets/css/slicknav.css">
-    <link rel="stylesheet" href="assets/css/flaticon.css">
-    <link rel="stylesheet" href="assets/css/gijgo.css">
-    <link rel="stylesheet" href="assets/css/animate.min.css">
-    <link rel="stylesheet" href="assets/css/animated-headline.css">
-    <link rel="stylesheet" href="assets/css/magnific-popup.css">
-    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
-    <link rel="stylesheet" href="assets/css/themify-icons.css">
-    <link rel="stylesheet" href="assets/css/slick.css">
-    <link rel="stylesheet" href="assets/css/nice-select.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../assets/css/slicknav.css">
+    <link rel="stylesheet" href="../assets/css/flaticon.css">
+    <link rel="stylesheet" href="../assets/css/gijgo.css">
+    <link rel="stylesheet" href="../assets/css/animate.min.css">
+    <link rel="stylesheet" href="../assets/css/animated-headline.css">
+    <link rel="stylesheet" href="../assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="../assets/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="../assets/css/themify-icons.css">
+    <link rel="stylesheet" href="../assets/css/slick.css">
+    <link rel="stylesheet" href="../assets/css/nice-select.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body class="black-bg">
     <!-- ? Preloader Start -->
@@ -45,7 +45,7 @@
                     <div class="menu-wrapper d-flex align-items-center justify-content-between">
                         <!-- Logo -->
                         <div class="logo">
-                            <a href="#"><img src="assets/img/logo/indexlogo.png" style="width:150px; height:150px;"/></a>
+                            <a href="#"><img src="../assets/img/logo/indexlogo.png" style="width:150px; height:150px;"/></a>
                         </div>
                         <!-- Main-menu -->
                         <div class="main-menu f-right d-none d-lg-block">
@@ -67,7 +67,7 @@
                                         <?php $_SESSION['dataset']=$user; ?>
                                             <li><a href="user_profile.php" ><?php
                                                  echo "<i>Welcome, ". $user['1']."</i>"?> </a></li>
-                                            <li><a href="logout.php">Log Out</a></li>
+                                            <li><a href="../logout.php">Log Out</a></li>
                                         </ul>
                                     </li>
                                 </ul>
@@ -95,7 +95,7 @@
                 <div class="row">
                     <div class="col-xl-12">
                         <div class="hero-cap hero-cap2 pt-70">
-                            <h2>Gallery</h2>
+                            <h2>About Us</h2>
                         </div>
                     </div>
                 </div>
@@ -103,86 +103,96 @@
         </div>
     </div>
     <!-- Hero End -->
-    <!--? Gallery Area Start -->
-    <div class="gallery-area">
-        <div class="container-fluid ">
+    <section class="about-area2 fix pb-padding pt-50 pb-80">
+        <div class="support-wrapper align-items-center">
+            <div class="right-content2">
+                <!-- img -->
+                <div class="right-img wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">
+                    <img src="../assets/img/gallery/about.png" alt="">
+                </div>
+            </div>
+            <div class="left-content2">
+                <!-- section tittle -->
+                <div class="section-tittle2 mb-20 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
+                    <div class="front-text">
+                        <p>Hello fitness Enthusiasts. I am Harishchandre founder of Rock Hammer Fitness Club .
+                             I have neen serving to fitness industry of Rahuri from last 15 years . Here you can connect to me.</p>
+                        <p>Welcome to our Rock Hammer gym, where we are dedicated to helping you sculpt the body of your dreams 
+                            through our premier bodybuilding feature.
+                        </p>
+                        <p>Our commitment to excellence and passion for fitness make us the perfect destination 
+                            for those seeking to maximize their muscle gains and unlock their true potential.<br>
+
+                            At our gym, we understand that bodybuilding is not just a sport; it's a lifestyle. <br>That's why we have curated a comprehensive range of cutting-edge equipment,
+                            designed to cater to all your muscle-building needs. 
+                        </p>
+                   
+                        <a href="courses2.php" class="border-btn">Our Courses</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Area End -->
+
+    <!--? Team -->
+    <section class="team-area fix">
+        <div class="container">
             <div class="row">
-                <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6">
-                    <div class="box snake mb-30">
-                        <div class="gallery-img big-img" style="background-image: url(assets/img/gallery/gallery1.png);"></div>
-                        <div class="overlay">
-                            <div class="overlay-content">
-                                <h3>Functional Training
-                                </h3>
-                                <a href="gallery.html"><i class="ti-plus"></i></a>
-                            </div>
+                <div class="col-xl-12">
+                    <div class="section-tittle text-center mb-55 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">
+                        <h2 >What We Offer</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-cat text-center mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s" >
+                        <div class="cat-icon">
+                            <img src="../assets/img/gallery/team1.png" alt="">
+                        </div>
+                        <div class="cat-cap">
+                            <h5><a href="courses2.php">Body Building</a></h5>
+                            <p>Our expert trainers will guide you through intensive workouts. Join Our Bodybuilding Course Today! </p>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6">
-                    <div class="box snake mb-30">
-                        <div class="gallery-img big-img" style="background-image: url(assets/img/gallery/gallery2.png);"></div>
-                        <div class="overlay">
-                            <div class="overlay-content">
-                                <h3>Weightlifting
-                                </h3>
-                                <a href="gallery.html"><i class="ti-plus"></i></a>
-                            </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-cat text-center mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+                        <div class="cat-icon">
+                            <img src="../assets/img/gallery/team2.png" alt="">
+                        </div>
+                        <div class="cat-cap">
+                            <h5><a href="courses2.php">Muscle Gain</a></h5>
+                            <p>Join our cutting-edge muscle gain course and sculpt the physique you've always dreamed of.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6">
-                    <div class="box snake mb-30">
-                        <div class="gallery-img big-img" style="background-image: url(assets/img/gallery/gallery3.png);"></div>
-                        <div class="overlay">
-                            <div class="overlay-content">
-                                <h3>Bulking Up
-                                </h3>
-                                <a href="gallery.html"><i class="ti-plus"></i></a>
-                            </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-cat text-center mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
+                        <div class="cat-icon">
+                            <img src="../assets/img/gallery/team3.png" alt="">
                         </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6">
-                    <div class="box snake mb-30">
-                        <div class="gallery-img big-img" style="background-image: url(assets/img/gallery/gallery4.png);"></div>
-                        <div class="overlay">
-                            <div class="overlay-content">
-                                <h3>Muscle gaining </h3>
-                                <a href="gallery.html"><i class="ti-plus"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6">
-                    <div class="box snake mb-30">
-                        <div class="gallery-img big-img" style="background-image: url(assets/img/gallery/gallery5.png);"></div>
-                        <div class="overlay">
-                            <div class="overlay-content">
-                                <h3>Muscle Recovery
-                                </h3>
-                                <a href="gallery.html"><i class="ti-plus"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
-                    <div class="box snake mb-30">
-                        <div class="gallery-img big-img" style="background-image: url(assets/img/gallery/gallery6.png);"></div>
-                        <div class="overlay">
-                            <div class="overlay-content">
-                                <h3>Bodybuilding
-                                </h3>
-                                <a href="gallery.html"><i class="ti-plus"></i></a>
-                            </div>
+                        <div class="cat-cap">
+                            <h5><a href="courses2.php">Weight Loss</a></h5>
+                            <p>Join Our Weight Loss Course Today! Unleash the Best Version of Yourself with Expert Guidance. </p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </section>
+    <!-- Services End -->
+    <div class="video-area section-bg2 d-flex align-items-center"  data-background="../assets/img/gallery/video-bg.png">
+        <div class="container">
+            <div class="video-wrap position-relative">
+                <div class="video-icon" >
+                    <a class="popup-video btn-icon" href="https://www.youtube.com/watch?v=up68UAfH0d0"><i class="fas fa-play"></i></a>
+                </div>
+            </div>
+        </div>
     </div>
-    <!-- Gallery Area End -->
-    <!-- ? services-area -->
+    <!--? About Area-2 Start -->
     <section class="services-area">
         <div class="container">
             <div class="row justify-content-between">
@@ -222,7 +232,7 @@
             </div>
         </div>
     </section>
-    </main>
+</main>
 <footer>
     <!--? Footer Start-->
     <div class="footer-area black-bg">
@@ -233,7 +243,7 @@
                     <div class="col-xl-12">
                         <div class="single-footer-caption mb-50 text-center">
                             <!-- logo -->
-                            
+                           
                             <!-- Menu -->
                             <!-- Header Start -->
                             <div class="header-area main-header2 wow fadeInUp" data-wow-duration="2s" data-wow-delay=".4s">
@@ -256,7 +266,6 @@
                                 </div>
                             </div>
                             <!-- Header End -->
-                            <!-- social -->
                             <div class="footer-social mt-30 wow fadeInUp" data-wow-duration="3s" data-wow-delay=".8s">
                                 <a href="#"><i class="fab fa-instagram"></i></a>
                                 <a href="http://wa.me/9762204444"><i class="fab fa-whatsapp"></i></a>
@@ -289,44 +298,44 @@
 
 <!-- JS here -->
 
-<script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
+<script src="../assets/js/vendor/modernizr-3.5.0.min.js"></script>
 <!-- Jquery, Popper, Bootstrap -->
-<script src="./assets/js/vendor/jquery-1.12.4.min.js"></script>
-<script src="./assets/js/popper.min.js"></script>
-<script src="./assets/js/bootstrap.min.js"></script>
+<script src="../assets/js/vendor/jquery-1.12.4.min.js"></script>
+<script src="../assets/js/popper.min.js"></script>
+<script src="../assets/js/bootstrap.min.js"></script>
 <!-- Jquery Mobile Menu -->
-<script src="./assets/js/jquery.slicknav.min.js"></script>
+<script src="../assets/js/jquery.slicknav.min.js"></script>
 
 <!-- Jquery Slick , Owl-Carousel Plugins -->
-<script src="./assets/js/owl.carousel.min.js"></script>
-<script src="./assets/js/slick.min.js"></script>
+<script src="../assets/js/owl.carousel.min.js"></script>
+<script src="../assets/js/slick.min.js"></script>
 <!-- One Page, Animated-HeadLin -->
-<script src="./assets/js/wow.min.js"></script>
-<script src="./assets/js/animated.headline.js"></script>
-<script src="./assets/js/jquery.magnific-popup.js"></script>
+<script src="../assets/js/wow.min.js"></script>
+<script src="../assets/js/animated.headline.js"></script>
+<script src="../assets/js/jquery.magnific-popup.js"></script>
 
 <!-- Date Picker -->
-<script src="./assets/js/gijgo.min.js"></script>
+<script src="../assets/js/gijgo.min.js"></script>
 <!-- Nice-select, sticky -->
-<script src="./assets/js/jquery.nice-select.min.js"></script>
-<script src="./assets/js/jquery.sticky.js"></script>
+<script src="../assets/js/jquery.nice-select.min.js"></script>
+<script src="../assets/js/jquery.sticky.js"></script>
 
 <!-- counter , waypoint,Hover Direction -->
-<script src="./assets/js/jquery.counterup.min.js"></script>
-<script src="./assets/js/waypoints.min.js"></script>
-<script src="./assets/js/jquery.countdown.min.js"></script>
-<script src="./assets/js/hover-direction-snake.min.js"></script>
+<script src="../assets/js/jquery.counterup.min.js"></script>
+<script src="../assets/js/waypoints.min.js"></script>
+<script src="../assets/js/jquery.countdown.min.js"></script>
+<script src="../assets/js/hover-direction-snake.min.js"></script>
 
 <!-- contact js -->
-<script src="./assets/js/contact.js"></script>
-<script src="./assets/js/jquery.form.js"></script>
-<script src="./assets/js/jquery.validate.min.js"></script>
-<script src="./assets/js/mail-script.js"></script>
-<script src="./assets/js/jquery.ajaxchimp.min.js"></script>
+<script src="../assets/js/contact.js"></script>
+<script src="../assets/js/jquery.form.js"></script>
+<script src="../assets/js/jquery.validate.min.js"></script>
+<script src="../assets/js/mail-script.js"></script>
+<script src="../assets/js/jquery.ajaxchimp.min.js"></script>
 
 <!-- Jquery Plugins, main Jquery -->	
-<script src="./assets/js/plugins.js"></script>
-<script src="./assets/js/main.js"></script>
+<script src="../assets/js/plugins.js"></script>
+<script src="../assets/js/main.js"></script>
 
 </body>
 </html>

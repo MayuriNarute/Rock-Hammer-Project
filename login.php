@@ -124,7 +124,7 @@
             alert('Welcome to Rock Hammer Fitness Club !');
 
           <script type='text/javascript'>
-          window.location = 'index2.php';
+          window.location = './AfterLogin/index2.php';
             </script> ";
            ?>
         <?php
