@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Rock Hammer </title>
+    <title>Home | Rock Hammer </title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="manifest" href="site.webmanifest">
@@ -106,6 +106,36 @@
         </div>
     </div>
     <!-- slider Area End-->
+    <section class="about-area2 fix pb-padding pt-50 pb-80">
+        <div class="support-wrapper align-items-center">
+            <div class="right-content2">
+                <!-- img -->
+                <div class="right-img wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">
+                    <img src="assets/img/gallery/about.png" alt="">
+                </div>
+            </div>
+            <div class="left-content2">
+                <!-- section tittle -->
+                <div class="section-tittle2 mb-20 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
+                    <div class="front-text">
+                        <h2 class="">About Us</h2>
+                        <p>Hello fitness Enthusiasts. I am Harishchandre founder of Rock Hammer Fitness Club .
+                            I have neen serving to fitness industry of Rahuri from last 15 years . Here you can connect to me.</p>
+                       <p>Welcome to our Rock Hammer gym, where we are dedicated to helping you sculpt the body of your dreams 
+                           through our premier bodybuilding feature.
+                       </p>
+                       <p>Our commitment to excellence and passion for fitness make us the perfect destination 
+                           for those seeking to maximize their muscle gains and unlock their true potential.<br>
+
+                           At our gym, we understand that bodybuilding is not just a sport; it's a lifestyle. <br>That's why we have curated a comprehensive range of cutting-edge equipment,
+                           designed to cater to all your muscle-building needs. 
+                       </p>
+                        <a href="courses.html" class="border-btn">Our Courses</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- Traning categories Start -->
     <section class="traning-categories black-bg">
         <div class="container-fluid">
@@ -448,36 +478,7 @@
     </section>
     <!-- Courses area End -->
     <!--? About Area-2 Start -->
-    <section class="about-area2 fix pb-padding pt-50 pb-80">
-        <div class="support-wrapper align-items-center">
-            <div class="right-content2">
-                <!-- img -->
-                <div class="right-img wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">
-                    <img src="assets/img/gallery/about.png" alt="">
-                </div>
-            </div>
-            <div class="left-content2">
-                <!-- section tittle -->
-                <div class="section-tittle2 mb-20 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
-                    <div class="front-text">
-                        <h2 class="">About Us</h2>
-                        <p>Hello fitness Enthusiasts. I am Harishchandre founder of Rock Hammer Fitness Club .
-                            I have neen serving to fitness industry of Rahuri from last 15 years . Here you can connect to me.</p>
-                       <p>Welcome to our Rock Hammer gym, where we are dedicated to helping you sculpt the body of your dreams 
-                           through our premier bodybuilding feature.
-                       </p>
-                       <p>Our commitment to excellence and passion for fitness make us the perfect destination 
-                           for those seeking to maximize their muscle gains and unlock their true potential.<br>
-
-                           At our gym, we understand that bodybuilding is not just a sport; it's a lifestyle. <br>That's why we have curated a comprehensive range of cutting-edge equipment,
-                           designed to cater to all your muscle-building needs. 
-                       </p>
-                        <a href="courses.html" class="border-btn">Our Courses</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    
     <!-- About Area End -->
 
    

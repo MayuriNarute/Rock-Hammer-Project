@@ -3,11 +3,11 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Rock Hammer </title>
+    <title>Courses | Rock Hammer </title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="manifest" href="site.webmanifest">
-    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicons.jpg">
+    <link rel="shortcut icon" type="image/x-icon" href="../assets/img/favicons.jpg">
 
     <!-- CSS here -->
     <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
@@ -165,7 +165,7 @@
                                     <p>"Unlock Your Potential with Personalized Training! <br>Our expert trainers will tailor a fitness plan just for you, 
                                         helping you reach your goals faster and safer.<br>
                                     </p>
-                                    <a href="courses.html" class="border-btn">View Courses</a>
+                                    <a href="courses2.php" class="border-btn">View Courses</a>
                                 </div>
                             </div>
                         </div>
@@ -179,7 +179,7 @@
                                 <div class="topic-content">
                                     <h3>Group training</h3>
                                     <p> Experience a supportive community while our expert trainers guide you <br>through exhilarating workouts designed to ignite your passion for fitness. <br>Together, we thrive, and together, we achieve greatness.</p>
-                                    <a href="../courses.html" class="btn">View Courses</a>
+                                    <a href="courses2.php" class="btn">View Courses</a>
                                 </div>
                             </div>
                         </div>

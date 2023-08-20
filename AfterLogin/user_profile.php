@@ -9,10 +9,10 @@ session_start();
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Rock Hammer </title>
+    <title>Profile | Rock Hammer </title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicons.jpg">
+    <link rel="shortcut icon" type="image/x-icon" href="../assets/img/favicons.jpg">
 
     <!-- CSS here -->
     <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
@@ -429,10 +429,10 @@ function validate_password() {
                                             <nav>
                                                 <ul>
                                                 <li><a href="index2.php">Home</a></li>
-                                                    <li><a href="about2.html">About</a></li>
-                                                    <li><a href="courses2.html">Courses</a></li>
+                                                    <li><a href="about2.php">About</a></li>
+                                                    <li><a href="courses2.php">Courses</a></li>
                                                     <li><a href="pricing2.php">Pricing</a></li>
-                                                    <li><a href="gallery2.html">Gallery</a></li>
+                                                    <li><a href="gallery2.php">Gallery</a></li>
                                                     <li><a href="contact2.php">Contact</a></li>
                                                 </ul>
                                             </nav>
