@@ -13,7 +13,7 @@ use Razorpay\Api\Api;
 $api = new Api($keyId, $keySecret);
 $orderData = [
     'receipt'         => 3456,
-    'amount'          => $_POST['amount'] * 100,
+    'amount'          => 200 * 100,
     'currency'        => 'INR',
     'payment_capture' => 1
 ];
@@ -34,9 +34,9 @@ $data = [
     "description"       => 'Fitness Club',
     "image"             => "",
     "prefill"           => [
-    "name"              => $_POST['payee_name'],
-    "email"             => $_POST['email'],
-    "contact"           => $_POST['contact'],
+    "name"              => $_POST['name'],
+    "email"             => $_POST['email1'],
+    "contact"           => '7685432211',
     ],
     "notes"             => [
     "address"           => 'Rahuri, Ahmednagar',

@@ -206,7 +206,7 @@
                             <div class="overlay-content">
                                 <h3>Functional Training
                                 </h3>
-                                <a href="gallery.html"><i class="ti-plus"></i></a>
+                                <a href="gallery2.php"><i class="ti-plus"></i></a>
                             </div>
                         </div>
                     </div>
@@ -218,7 +218,7 @@
                             <div class="overlay-content">
                                 <h3>Weightlifting
                                 </h3>
-                                <a href="gallery.html"><i class="ti-plus"></i></a>
+                                <a href="gallery2.php"><i class="ti-plus"></i></a>
                             </div>
                         </div>
                     </div>
@@ -230,7 +230,7 @@
                             <div class="overlay-content">
                                 <h3>Bulking Up
                                 </h3>
-                                <a href="gallery.html"><i class="ti-plus"></i></a>
+                                <a href="gallery2.php"><i class="ti-plus"></i></a>
                             </div>
                         </div>
                     </div>
@@ -241,7 +241,7 @@
                         <div class="overlay">
                             <div class="overlay-content">
                                 <h3>Muscle gaining </h3>
-                                <a href="gallery.html"><i class="ti-plus"></i></a>
+                                <a href="gallery2.php"><i class="ti-plus"></i></a>
                             </div>
                         </div>
                     </div>
@@ -253,7 +253,7 @@
                             <div class="overlay-content">
                                 <h3>Muscle Recovery
                                 </h3>
-                                <a href="gallery.html"><i class="ti-plus"></i></a>
+                                <a href="gallery2.php"><i class="ti-plus"></i></a>
                             </div>
                         </div>
                     </div>

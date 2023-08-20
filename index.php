@@ -82,44 +82,6 @@
     <!-- Header End -->
 </header>
 <main>
-<div style="width: 100%;height: 100%;"class="modal fade" id="form" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog " role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-      <h4 style="font-size:20px;"class="contact-title"><center>Submit your Enquiry</center></h4>
-
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-
-      <form class="form-contact contact_form" id="contactForm">
-        <div class="modal-body">
-        
-          <div class="form-group">
-            <label for="name">Full Name</label>
-            <input type="text" class="form-control" id="name" aria-describedby="name" placeholder="Enter your full name">
-          </div>
-          <div class="form-group">
-            <label for="name">Phone Number</label>
-            <input type="text" class="form-control" id="name" aria-describedby="name" placeholder="Enter your phone number">
-          </div>
-          <div class="form-group">
-            <label for="email1">Email address</label>
-            <input type="email" class="form-control" id="email1" aria-describedby="emailHelp" placeholder="Enter your email">
-          </div>
-          <div class="form-group">
-            <label for="password1">Your Query</label>
-            <textarea rows="3" cols="2" type="text" class="form-control" id="message" placeholder="Write your query here..."></textarea>
-          </div>
-        </div>
-        <div class="modal-footer justify-content-center">
-          <button type="submit" class="button button-contactForm boxed-btn">Submit</button>
-        </div>
-      </form>
-    </div>
-  </div>
-</div>
 
     <!--? slider Area Start-->
     <div class="slider-area position-relative">
@@ -134,7 +96,7 @@
                                 <span data-animation="fadeInLeft" data-delay="0.1s">Hi This is  Rock Hammer</span>
                                 <h1 data-animation="fadeInLeft" data-delay="0.4s">FITNESS CLUB</h1>
                                 <a href="courses.html" class="border-btn hero-btn" data-animation="fadeInLeft" data-delay="0.8s">Our Courses</a>
-                                <a href="#" class="border-btn hero-btn" data-toggle="modal" data-target="#form" data-animation="fadeInLeft" data-delay="0.8s">Enquire</a>
+                                <a href="contact.php" class="border-btn hero-btn" data-animation="fadeInLeft" data-delay="0.8s">Enquire</a>
 
                             </div>
                         </div>
@@ -199,7 +161,7 @@
                             <img src="assets/img/gallery/team1.png" alt="">
                         </div>
                         <div class="cat-cap">
-                            <h5><a href="services.html">Body Building</a></h5>
+                            <h5><a href="courses.html">Body Building</a></h5>
                             <p>Our expert trainers will guide you through intensive workouts. Join Our Bodybuilding Course Today! </p>
                         </div>
                     </div>
@@ -210,7 +172,7 @@
                             <img src="assets/img/gallery/team2.png" alt="">
                         </div>
                         <div class="cat-cap">
-                            <h5><a href="services.html">Muscle Gain</a></h5>
+                            <h5><a href="courses.html">Muscle Gain</a></h5>
                             <p>Join our cutting-edge muscle gain course and sculpt the physique you've always dreamed of.</p>
                         </div>
                     </div>
@@ -221,7 +183,7 @@
                             <img src="assets/img/gallery/team3.png" alt="">
                         </div>
                         <div class="cat-cap">
-                            <h5><a href="services.html">Weight Loss</a></h5>
+                            <h5><a href="courses.html">Weight Loss</a></h5>
                             <p>Join Our Weight Loss Course Today! Unleash the Best Version of Yourself with Expert Guidance. </p>
                         </div>
                     </div>

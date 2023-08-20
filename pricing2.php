@@ -172,17 +172,17 @@
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
-            <form class="form-contact contact_form" id="contactForm">
+            <form class="form-contact contact_form" id="contactForm" method="post" action="pay.php">
               <div class="modal-body">
               
               <div class="form-group">
                   <label for="name"><i style="font-size:15px;"class="fas fa-user"></i>&nbsp;Full Name</label>
-                  <input type="text" class="form-control" id="name" aria-describedby="name" placeholder="Enter your full name">
+                  <input type="text" class="form-control" id="name" name="name" aria-describedby="name" placeholder="Enter your full name">
                 </div>
                 
                 <div class="form-group">
                   <label for="email1"><i style="font-size:15px;"class="fas fa-envelope"></i>&nbsp;Email address</label>
-                  <input type="email" class="form-control" id="email1" aria-describedby="emailHelp" placeholder="Enter your email">
+                  <input type="email" class="form-control" id="email1" name="email1" aria-describedby="emailHelp" placeholder="Enter your email">
                 </div>
                
               </div>
