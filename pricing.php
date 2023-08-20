@@ -101,91 +101,9 @@
 
     <!-- Hero End -->
     <!-- Courses area start -->
-    <div style="width: 100%;height: 100%;"class="modal fade" id="pricing1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h2 class="modal-title" id="exampleModalLabel">Join Our 2 Months Plan Now!</h2>
-              <button type="button boxed-btn" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <form class="form-contact contact_form" id="redirectForm" method="post" action="request.php" >
-              <div class="modal-body">
-                
-              <div class="modal-footer justify-content-center">
-                <button type="submit" class="button button-contactForm boxed-btn">Submit</button>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-      <div style="width: 100%;height: 100%;"class="modal fade" id="pricing2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h2 class="modal-title" id="exampleModalLabel">Join Our 3 Months Plan Now!</h2>
-              <button type="button boxed-btn" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <form class="form-contact contact_form" id="contactForm">
-              <div class="modal-body">
-              
-              <div class="form-group">
-                  <label for="name"><i style="font-size:15px;"class="fas fa-user"></i>&nbsp;Full Name</label>
-                  <input type="text" class="form-control" id="name" aria-describedby="name" placeholder="Enter your full name">
-                </div>
-                
-                <div class="form-group">
-                  <label for="email1"><i style="font-size:15px;"class="fas fa-envelope"></i>&nbsp;Email address</label>
-                  <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter your email">
-                </div>
-               
-              </div>
-              <div class="modal-footer justify-content-center">
-                <button type="submit" class="button button-contactForm boxed-btn">Submit</button>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-      <div style="width: 100%;height: 100%;"class="modal fade" id="pricing3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h2 class="modal-title" id="exampleModalLabel">Join Our 6 Months Plan Now!</h2>
-              <button type="button boxed-btn" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <form class="form-contact contact_form"  action="pay.php" method="post"  id="contactForm">
-              <div class="modal-body">
-              
-              <div class="form-group">
-                  <label for="name"><i style="font-size:15px;"class="fas fa-user"></i>&nbsp;Full Name</label>
-                  <input type="text" class="form-control" name="payee_name" aria-describedby="name" placeholder="Enter your full name" required>
-                </div>
-                <div class="form-group">
-                  <label for="name"><i style="font-size:15px;"class="fas fa-envelope"></i>&nbsp;Email</label>
-                  <input type="email" class="form-control" name="email" aria-describedby="name" placeholder="Enter your email id" required>
-                </div>
-                <div class="form-group">
-                  <input type="hidden" class="form-control" name="amount" id="amount" aria-describedby="emailHelp" value="230">
-                </div>
-                <div class="form-group">
-                  <input type="hidden" class="form-control" name="contact" id="contact" aria-describedby="emailHelp" value="7558232254">
-                </div>
-               
-              </div>
-              <div class="modal-footer justify-content-center">
-                <button type="submit" class="button button-contactForm boxed-btn">Pay</button>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
+    
+      
+      
     <section class="pricing-area section-padding30 fix">
         <div class="container">
             <div class="row">
@@ -245,7 +163,7 @@
                                         <p>Month to mouth</p>
                                     </div>
                                 </div>
-                                <a href="" class="border-btn border-btn2">Join Now</a>
+                                <a href="register.php" class="border-btn border-btn2">Join Now</a>
                             </div>
                         </div>
                     </div>
@@ -299,7 +217,7 @@
                                         <p>Month to mouth</p>
                                     </div>
                                 </div>
-                                <a href="#" data-toggle="modal" data-target="#pricing2" data-animation="fadeInLeft" data-delay="0.8s" class="border-btn border-btn2">Join Now</a>
+                                <a href="register.php"  class="border-btn border-btn2">Join Now</a>
                             </div>
                         </div>
                     </div>
@@ -353,7 +271,7 @@
                                         <p>Month to mouth</p>
                                     </div>
                                 </div>
-                                <a href="#" data-toggle="modal" data-target="#pricing3" data-animation="fadeInLeft" data-delay="0.8s" class="border-btn border-btn2">Join Now</a>
+                                <a href="register.php" class="border-btn border-btn2">Join Now</a>
                             </div>
                         </div>
                     </div>

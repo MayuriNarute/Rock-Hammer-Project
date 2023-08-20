@@ -127,7 +127,7 @@
                
               </div>
               <div class="modal-footer justify-content-center">
-                <button type="submit" class="button button-contactForm boxed-btn">Submit</button>
+                <button type="submit" id="rzp-button1" class="button button-contactForm boxed-btn">Submit</button>
               </div>
             </form>
           </div>
@@ -187,7 +187,7 @@
                
               </div>
               <div class="modal-footer justify-content-center">
-                <button type="submit" class="button button-contactForm boxed-btn">Submit</button>
+                <button type="submit" id="rzp-button1" class="button button-contactForm boxed-btn">Submit</button>
               </div>
             </form>
           </div>
